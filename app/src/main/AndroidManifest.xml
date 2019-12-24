@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".saveActivity"></activity>
+        <activity android:name=".httpReqActivity"></activity>
+        <activity android:name=".saveActivity" />
         <activity android:name=".checkNameActivity" />
         <activity android:name=".tempActivity" />
         <activity android:name=".calculateActivity" />

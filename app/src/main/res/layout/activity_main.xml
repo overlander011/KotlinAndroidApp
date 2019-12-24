@@ -63,7 +63,18 @@
                     android:background="#46DDB2"
                     android:gravity="center"
                     android:onClick="checkname"
-                    android:text="CHECKNAME" />
+                    android:text="listNAME" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="#147E60"
+                    android:gravity="center"
+                    android:onClick="httpReq"
+                    android:text="http Req" />
             </LinearLayout>
 
 

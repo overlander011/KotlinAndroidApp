@@ -30,4 +30,9 @@ class MainActivity : AppCompatActivity() {
         intent = Intent(this,checkNameActivity::class.java)
         startActivity(intent)
     }
+
+    fun httpReq(view: View) {
+        intent = Intent(this,httpReqActivity::class.java)
+        startActivity(intent)
+    }
 }

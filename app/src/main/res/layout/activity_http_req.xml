@@ -16,50 +16,48 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Get Name"
+            android:text="getName"
             android:textSize="35dp" />
-
-        <TextView
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="238dp"
-            android:text="TextView" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="323dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button2"
+            <ListView
+                android:id="@+id/name_list"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:background="#FA5E52"
-                android:onClick="getName"
-                android:text="Click here"
-                android:textSize="20dp" />
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="198dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center|center_vertical"
-                android:onClick="backpage"
-                android:text="BACK" />
-
+                android:layout_height="322dp" />
         </LinearLayout>
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FC7186"
+            android:onClick="getName"
+            android:text="click here" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#E6417A"
+            android:onClick="backpage"
+            android:text="Back" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
